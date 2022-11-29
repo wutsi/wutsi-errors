@@ -4,6 +4,8 @@ enum class ErrorURN(val urn: String) {
     BUSINESS_ACCOUNT_NOT_SUPPORTED_IN_COUNTRY("urn:wutsi:error:business-account-not-supported-in-country"),
     BUSINESS_NOT_ACTIVE("urn:wutsi:error:business-not-active"),
 
+    IDEMPOTENCY_KEY_NOT_VALID("urn:wutsi:error:idempotency-key-not-valid"),
+
     MEMBER_ALREADY_BUSINESS("urn:wutsi:error:member-already-business"),
     MEMBER_ALREADY_REGISTERED("urn:wutsi:error:member-already-registered"),
     MEMBER_NOT_ACTIVE("urn:wutsi:error:member-not-active"),
