@@ -17,6 +17,8 @@ enum class ErrorURN(val urn: String) {
 
     PHONE_NUMBER_ALREADY_ASSIGNED("urn:wutsi:error:phone-number-already-assigned"),
 
+    ORDER_EXPIRED("urn:wutsi:error:order-expired"),
+
     PAYMENT_METHOD_NOT_ACTIVE("urn:wutsi:error:payment-method-not-active"),
 
     PICTURE_LIMIT_REACHED("urn:wutsi:error:picture-limit-reached"),
