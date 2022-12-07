@@ -15,11 +15,12 @@ enum class ErrorURN(val urn: String) {
 
     NO_STORE("urn:wutsi:error:no-store"),
 
-    PHONE_NUMBER_ALREADY_ASSIGNED("urn:wutsi:error:phone-number-already-assigned"),
-
     ORDER_EXPIRED("urn:wutsi:error:order-expired"),
 
     PAYMENT_METHOD_NOT_ACTIVE("urn:wutsi:error:payment-method-not-active"),
+    PAYMENT_METHOD_NOT_OWNER("urn:wutsi:error:payment-method-not-owner"),
+
+    PHONE_NUMBER_ALREADY_ASSIGNED("urn:wutsi:error:phone-number-already-assigned"),
 
     PICTURE_LIMIT_REACHED("urn:wutsi:error:picture-limit-reached"),
 
