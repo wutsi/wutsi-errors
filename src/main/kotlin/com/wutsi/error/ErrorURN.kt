@@ -11,7 +11,6 @@ enum class ErrorURN(val urn: String) {
     MEMBER_NOT_ACTIVE("urn:wutsi:error:member-not-active"),
     MEMBER_NOT_BUSINESS("urn:wutsi:error:member-not-business-account"),
     MEMBER_NOT_FOUND("urn:wutsi:error:member-not-found"),
-    MEMBER_SUSPENDED("urn:wutsi:error:member-suspended"),
 
     NO_STORE("urn:wutsi:error:no-store"),
 
