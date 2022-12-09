@@ -15,6 +15,7 @@ enum class ErrorURN(val urn: String) {
     NO_STORE("urn:wutsi:error:no-store"),
 
     ORDER_EXPIRED("urn:wutsi:error:order-expired"),
+    ORDER_NOT_OWNER("urn:wutsi:error:order-not-owner"),
 
     PAYMENT_METHOD_NOT_ACTIVE("urn:wutsi:error:payment-method-not-active"),
     PAYMENT_METHOD_NOT_OWNER("urn:wutsi:error:payment-method-not-owner"),
