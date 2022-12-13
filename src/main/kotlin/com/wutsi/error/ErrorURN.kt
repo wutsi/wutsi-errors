@@ -31,6 +31,11 @@ enum class ErrorURN(val urn: String) {
     PRODUCT_NOT_OWNER("urn:wutsi:error:product-not-owner"),
     PRODUCT_PICTURE_MISSING("urn:wutsi:error:product-pictures-missing"),
     PRODUCT_NOT_AVAILABLE("urn:wutsi:error:product-not-available"),
+    PRODUCT_EVENT_NO_MEETING_ID("urn:wutsi:error:product-event-no-meeting-id"),
+    PRODUCT_EVENT_NO_START_DATE("urn:wutsi:error:product-event-no-start-date"),
+    PRODUCT_EVENT_NO_END_DATE("urn:wutsi:error:product-event-no-end-date"),
+    PRODUCT_EVENT_START_DATE_IN_PAST("urn:wutsi:error:product-event-start-date-in-past"),
+    PRODUCT_EVENT_END_DATE_BEFORE_START_DATE("urn:wutsi:error:product-event-end-date-before-start-date"),
 
     STORE_NOT_ACTIVE("urn:wutsi:error:store-not-active"),
     STORE_NOT_FOUND("urn:wutsi:error:store-not-found"),
