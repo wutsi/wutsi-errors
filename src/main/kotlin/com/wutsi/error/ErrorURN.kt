@@ -16,6 +16,7 @@ enum class ErrorURN(val urn: String) {
 
     ORDER_EXPIRED("urn:wutsi:error:order-expired"),
     ORDER_NOT_OWNER("urn:wutsi:error:order-not-owner"),
+    ORDER_PRODUCT_NOT_FOUND ("urn:wutsi:error:order-product-not-found"),
 
     PAYMENT_METHOD_NOT_ACTIVE("urn:wutsi:error:payment-method-not-active"),
     PAYMENT_METHOD_NOT_OWNER("urn:wutsi:error:payment-method-not-owner"),
@@ -38,6 +39,7 @@ enum class ErrorURN(val urn: String) {
     PRODUCT_EVENT_NO_END_DATE("urn:wutsi:error:product-event-no-end-date"),
     PRODUCT_EVENT_START_DATE_IN_PAST("urn:wutsi:error:product-event-start-date-in-past"),
     PRODUCT_EVENT_END_DATE_BEFORE_START_DATE("urn:wutsi:error:product-event-end-date-before-start-date"),
+    PRODUCT_FILE_NOT_FOUND("urn:wutsi:error:product-file-not-found"),
 
     STORE_NOT_ACTIVE("urn:wutsi:error:store-not-active"),
     STORE_NOT_FOUND("urn:wutsi:error:store-not-found"),
