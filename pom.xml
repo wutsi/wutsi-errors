@@ -6,7 +6,7 @@
 
   <artifactId>wutsi-errors</artifactId>
   <groupId>com.wutsi</groupId>
-  <version>1.0.15</version>
+  <version>1.0.16-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>wutsi-errors</name>
@@ -27,7 +27,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/wutsi/wutsi-errors.git</developerConnection>
-    <tag>wutsi-errors-1.0.15</tag>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <repository>
